@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+    <div>
+        <label for="username"> enter the username :</label>
+        <input type="text"placeholder="username" id="username">
+    </div>
+    <div>
+        <label for="password"> enter the password :</label>
+        <input type="password"placeholder="password" id="password">
+    </div>
+    <div>
+        <input type="checkbox" id="age" name="age" value="age">
+       <label for="age"> I am 18+</label>
+       <br>
+       <input type="checkbox" id="condition" name="condition" value="condition">
+       <label for="condition"> i accept this term and condition</label>
+    </div>
+    <div>
+        <input type="radio"name = gender id="male" value="male"/>
+        <label for="male">male</label>
+        <input type="radio"name = gender id="female" value="female"/>
+        <label for="female">female</label>
+        <input type="radio"name = gender id="other" value="other"/>
+        <label for="other">other</label>
+    </div>
+    <div>
+       choose your profession 
+        <select name="profession" id="profession">
+            <option>select you option</option>
+            <option value="student">student</option>
+            <option value="teacher">teacher</option>
+            <option value="devloper">devloper</option>
+        </select>
+    </div>
+    <div>
+        <label for="volume">volume</label>
+        <input type="range" min="0" max="100" name="volume"/>
+    </div>
+    <div>
+        <label for="feedback">plase provide your valuable feedback :</label> 
+        <textarea id="feedback" name="feedback" placeholder="enter your feedback" rows="3" cols="70"></textarea>
+    </div>
+    <button>Submit</button>
+    <button type="reset">reset</button> 
+    </form> 
+</body>
+</html>
